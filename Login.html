@@ -1,0 +1,24 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ </head>
+ <body>
+    <center>
+        <h2>Login</h2>
+        <form method="get" action="./loginsuccess.html" autocomplete="off">
+            <label for="Username"></label><br>
+            <input type="text" name="Username" id="Username" placeholder="Username" autofocus required><br>
+            <label for="Password"></label><br>
+            <input type="text" name="Password" id="Password" placeholder="Password" required pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[@#$]).{8,16}"><br>
+            <input type="Submit" value="Login" placeholder="Login"><br>
+    <a href="./forgotpassword.html">Forgotpassword</a>
+&emsp;
+            <a href="./register.html">Register</a>
+    
+        </form>
+    </center>
+ </body>
+ </html>
