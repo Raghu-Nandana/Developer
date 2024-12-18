@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="../response1.html">
+        <fieldset>
+            <center>
+                <center><h1 style=background-color:cornflowerblue;"><img src="./16-12-2024/tgsrtc logo.jpg" width="60" style="background-color:cornflowerblue;" ><br>TELANGANA STATE ROAD TRANSPORT CORPORATION <br> <center> <h2>GENERAL BUS PASS APPLICATION</h2></center></h1></center><br>
+
+    </fieldset>
+        <fieldset>
+        <legend><b>Application details</b></legend>
+            <pre>
+            <label for="name">Name:</label><input type="text" id="name" pattern="[a-zA-Z]+.{5,10}" placeholder="enter name" required name="name" title="maximum 20 characters">                                                                                                  <label for="father name">Fathers/Gurdian Name:</label><input type="text" id="father name" pattern="[a-zA-Z]+" placeholder="enter father name" required name="father name" title="enter only text" >
+             </pre>
+            <pre>
+            <label for="date">Date of Birth:</label><input type="date" id="date" placeholder="enter DOB" required name="date">                                                                                                 <label for="Gender">Gender:</label><input type="radio" name="Gender" value="male" id="male" > <label for="male">Male</label> <input type="radio" name="Gender" id="female" value="female"> <label for="female">Female</label>
+             </pre>
+            <pre>
+             <label for="age">Age as on:</label><input type="number" id="age" placeholder="enter age" required name="age">                                                                                             <label for="Gender">Aadhaar n.o </label><input type="text" name="Aadhaar" id="number" pattern="[0-9]{12}" placeholder="enter your aadhaar n.o" required name="aadhaar" title="please enter 12 digits" >
+            </pre>
+             <pre>
+           <label for="whatsapp">whatsapp:</label><input type="text" id="whatsapp" pattern="\+91[6789][0-9]{9}" placeholder="enter whatsapp no" required name="whatsapp" title="enter phone no correctly">                                                                                                <label for="email">Gmail: </label><input type="text" name="email" id="email" pattern="[a-z0-9_.]+@gmail\.com" placeholder="enter your email" required name="email" title="please enter email@ format" >
+            </pre>
+                
+        
+     </fieldset>
+     <fieldset>
+        <legend><b>Residential Address Details</b></legend>
+            <pre>
+               <label for="Application">Application Address :</label> <textarea name="Address" id="Address" rows="5" cols="30"></textarea>                                                                    <label for="district">District:</label> <select name="District" id="district"> <option value="hyderabad">Hyderabad</option> 
+            </pre>
+                  <pre>
+             <label for="mandal">Mandal:</label> <select name="mandal" id="mandal"> <option value="Hyderabad">Hyderabad</option> <option value="Hyderabad"></option></select>                                                                                                                                            <label for="village">Village:</label> <select name="village" id="village"> <option value="Hyderabad">Hyderabad</option></select>
+          </pre>
+                   <pre>
+    <label for="pin">Pincode:</label> <input type="text" id="pin" name="pin" pattern="[0-9]{5}" placeholder="enter district pincode" required name="pincode">
+    </pre>
+     </fieldset>
+    
+     <fieldset>
+        <legend><b>Passtype details</b></legend>
+            <label for="city">City:</label>
+            <select name="city" id="city"> 
+                <option value="hyderabad">Hyderabad</option>
+            </select> <br> <br>
+            <label for="city">Pass type:</label>
+            <select name="city" id="city"> 
+                <option value="select">----select-----</option>
+                <option value="Greater pass">Greater pass</option>
+                <option value="ord">Ordinary pass</option>
+                <option value="express">Metro express pass</option>
+                <option value="deluxe">Metro deluxe pass</option>
+            </select> <br>
+        </fieldset>
+        <fieldset>
+            <legend>Mode of payment & Pass collection</legend>
+                <label for="payment">Payment mode:</label>
+                <select name="payment" id="payment">
+                    <option value="select">---select---</option>
+                    <option value="payment at counter">payment at counter</option>
+                   </select> <br> <br>
+                <label for="delivery">Pass delivery mode:</label>
+                <select name="delivery" id="delivery">
+                    <option value="select">---select---</option>
+                    <option value="Counter">At Counter</option>
+                    </select> <br> <br>
+                <label for="center">Center at which you want to collect the Pass:</label>
+                <select name="center" id="center">
+                    <option value="sel">---select---</option>
+                    <option value="kukatpally">kukatpally</option>
+                    <option value="hitechcity">hitechcity</option>
+                    <option value="begambazar">begambazar</option>
+                </select> <br> <br>
+    
+    
+        </fieldset>
+        <br>
+            <center>
+                <img src="./16-12-2024/capta.jpg" alt="captcha" width="100" height="50">
+                <br>
+                <input type="text" name="pattern" pattern="gGphJD" placeholder="enter above captcha" required name="captcha" title="enter captcha correctly"> <br> <br>
+                <input type="submit" value="submit">
+            </center>
+        </form>
+</body>
+</html>
