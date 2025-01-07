@@ -1,0 +1,30 @@
+body {
+    background-image: url(https://thumbs.dreamstime.com/z/early-morning-view-prakasam-barrage-across-river-krishna-vijayawada-andhrapradesh-india-lifeline-farmers-west-230792875.jpg?ct=jpeg);
+}
+
+.container {
+    position: relative;
+    display: flex;
+   gap:25px;
+    border: 2px solid white;
+    padding-bottom: 0px;
+  }
+  .item {
+  
+    color: white;
+    font-size: 20px;
+    gap: 50px;
+  }
+
+{
+    margin:0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+i {
+    color: white;
+    position: absolute;
+    right: 0px;
+    padding: 10px;
+}
