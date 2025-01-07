@@ -1,0 +1,15 @@
+{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    justify-content: space-around;
+    display: flex;
+    height: 40px;
+    background-color: black;
+    color: white;
+    
+    padding: 10px;
+}
